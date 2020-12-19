@@ -1,0 +1,30 @@
+/* Dark theme */
+@-moz-document domain("clojuredocs.org") {
+html,
+body,
+.var-header .arglists li,
+.var-page .docstring pre,
+.example-body,
+.note-body,
+.see-also p,
+form.search input.query {
+    background-color: #292b2e;
+    color: #afb2ae;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+    letter-spacing: 0.02em;
+}
+
+.example-body {
+    background-color: #131415;
+}
+.syntaxify *,
+.syntaxify {
+    color: #afb2ae;
+    font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+}
+
+.nav > li > a:hover {
+    background-color: #131415;
+}
+}
