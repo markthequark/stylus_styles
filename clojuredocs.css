@@ -7,7 +7,10 @@ body,
 .example-body,
 .note-body,
 .see-also p,
-form.search input.query {
+form.search input.query,
+.search-results-page .search-result .arglists li,
+.ns-page pre.doc,
+.null-state {
     background-color: #292b2e;
     color: #afb2ae;
     font-size: 16px;
@@ -15,15 +18,16 @@ form.search input.query {
     letter-spacing: 0.02em;
 }
 
-.example-body {
-    background-color: #131415;
-}
+.example-body,
 .syntaxify *,
-.syntaxify {
+.syntaxify,
+code {
+    background-color: #131415;
     color: #afb2ae;
     font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
 }
 
+.var-group .dl-row:hover,
 .nav > li > a:hover {
     background-color: #131415;
 }
